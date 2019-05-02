@@ -136,7 +136,7 @@ class CryostatBuilder(gegede.builder.Builder):
                     moduleNum += 1
         
 
-        print "Cryostat: Built "+str(self.nModules[0])+" wide by "+str(self.nModules[1])+" high by "+str(self.nModules[2])+" long modules."
+        print ("Cryostat: Built "+str(self.nModules[0])+" wide by "+str(self.nModules[1])+" high by "+str(self.nModules[2])+" long modules.")
 
 
 
