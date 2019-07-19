@@ -35,7 +35,7 @@ class DetEncLArBuilder(gegede.builder.Builder):
             raise ValueError("No value given for detEncDim")
         if encBoundToDet_z is None:
             raise ValueError("No value given for encBoundToDet_z")
-        if waterBoxDim is None:
+        if waterBlocks and waterBoxDim is None:
             raise ValueError("No value given for waterBoxDim")
 
         self.detEncMat        = 'Air'
